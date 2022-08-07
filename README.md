@@ -34,7 +34,11 @@ Day-2
 floorplan and Introduction to Library cells
 
 Defining height and width of die and core
+
 Utilization factor =Area occupied by netlist/ Total area of core
+
 Utilization factor is kept about 0.6 to 0.5 or even lower (why? for future scope of adding cells into it)
+
 Aspect ratio = Heightof die/ Width of die
+
 
