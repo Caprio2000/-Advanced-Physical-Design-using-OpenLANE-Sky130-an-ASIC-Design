@@ -19,3 +19,11 @@ bash-4.2$ ./fow.tcl -interactive
 
 %prep -design picorv32a
 
+
+Number of cells - 14876
+Total Number of flops - 1613
+Flop count = Total Number of flops/ Number of cells =0.1084
+~ 10.84% of flops used .
+Buffer count - 1656
+Buffer count = No. of buffer/Number of cell = 0.1113
+~ 11.13 % buffer used.
