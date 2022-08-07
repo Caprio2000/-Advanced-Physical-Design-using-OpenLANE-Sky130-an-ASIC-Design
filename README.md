@@ -8,8 +8,6 @@ Invoking Openlane
 
 docker
 
- docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) openlane:rc6
- 
  /openlane$docker
  
 
@@ -40,5 +38,19 @@ Utilization factor =Area occupied by netlist/ Total area of core
 Utilization factor is kept about 0.6 to 0.5 or even lower (why? for future scope of adding cells into it)
 
 Aspect ratio = Heightof die/ Width of die
+
+
+$docker
+
+
+
+run_floorplan
+
+Successful floorplanning results in a .def file as output.
+
+This file contains the die area and placement of standard cells.
+
+DIEAREA in microns is 660.685x 671.405 = 443587.2
+
 
 
