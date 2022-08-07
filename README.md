@@ -52,5 +52,19 @@ This file contains the die area and placement of standard cells.
 
 DIEAREA in microns is 660.685x 671.405 = 443587.2
 
+Floorplan
+
+
+
+Proper mapping of Library and tech file is important to reflect the same in magic layout
+
+Magic Layout Tool is used for visualizing the layout after successfull floorplan.
+
+Three files are required for viewing the layout
+
+1. Technology File (sky130A.tech)
+2. Merged LEF file (merged.lef)
+3. DEF File
+
 
 
