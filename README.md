@@ -1,5 +1,8 @@
 # -Advanced-Physical-Design-using-OpenLANE-Sky130-an-ASIC-Design
 
+
+
+
 **Day- 1**
 
 Introduction to Openlane
@@ -25,6 +28,12 @@ Flop count = Total Number of flops/ Number of cells =0.1084
 Buffer count - 1656
 Buffer count = No. of buffer/Number of cell = 0.1113
 ~ 11.13 % buffer used.
+
+
+
+
+
+
 
 
 **Day-2**
@@ -65,6 +74,10 @@ Three files are required for viewing the layout
 1. Technology File (sky130A.tech)
 2. Merged LEF file (merged.lef)
 3. DEF File
+
+
+
+
 
 **Day -3**
 
@@ -152,6 +165,8 @@ tdf = 0.028ns
 
 
 
+
+
 **Day-4**
 
 Pre-layout timing analysis and importance of clock tree
@@ -233,9 +248,12 @@ The above process checks the design taking the real clocks into consideration. A
 
 Global and Detailed RoutingOpenLANE uses FastRoute as global and TritonRoute as the detailed routing engine for physical implementations of designs. Routing consists of two stages:
 
-Global Routing - first partitions the routing region into tiles and decides tile-to-tile paths for all nets. Detailed Routing - the exact tracks and vias for nets after the routing guide is provided.
+Global Routing - first partitions the routing region into tiles and decides tile-to-tile paths for all nets. 
+ 
+ Detailed Routing - the exact tracks and vias for nets after the routing guide is provided.
 
-In openlane these all steps are done by simple execution of following command
+
+ In openlane these all steps are done by simple execution of following command
 
 run_routing
 
@@ -248,5 +266,22 @@ The follwoing image shows routing has been completed without any DRC violation.
 SPEF ExtractionAfter routing we need to get the information about the parasitic information of the routed path as these will also impact the STA analysis. SPEF file is needed to perform sign-off post-route STA analysis. SPEF Extractor has been included in the openlane flow. Following image shows that SPEF file has been generated. There is no need to execute any specific command for this extraction. This file is automatically being generated at the end of routing process.
 
 ![183289146-4e31861c-d177-439f-8d46-2cc9e810e4aa](https://user-images.githubusercontent.com/71349997/183408028-32c613fe-5bb1-4276-86d1-1c6c9bbdf7bb.png)
+ 
+ Special Thanks to 
+ 
+ *VSD SYSTEM DESIGN
+ *OpaneLane
+ 
+ 
+ 
+ Acknowledgements
+ 
+Kunal Ghosh
+ 
+Nickson Jose
+ 
+ShonTaware
+ 
+Grant Brown
  
  
