@@ -66,5 +66,13 @@ Three files are required for viewing the layout
 2. Merged LEF file (merged.lef)
 3. DEF File
 
+Day -3
+
+Cloninng repo in openlane directory
+
+git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+
+magic -T sky130A.tech sky130_inv.mag
 
 
+![182999348-caf44fd9-30d4-443f-bdcf-435666250456](https://user-images.githubusercontent.com/71349997/183374691-912111ea-295f-48bd-99bf-a4bc861ded4d.jpg)
