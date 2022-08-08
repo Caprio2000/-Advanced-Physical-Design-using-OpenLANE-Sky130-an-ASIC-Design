@@ -182,7 +182,7 @@ Run the following command to run the CTS in the previous design.
 
 run_cts
 In the synthesis folder we can see another new netlist as follows: 
- ![183262420-7d033080-4d25-4462-88a5-034d8f2e24d0](https://user-images.githubusercontent.com/71349997/183407125-8ce268ac-3b1f-4da7-ae9d-77748cd2af7d.png)
+ 
 
  image Both the netlist files are different as the one before CTS does not contain the clock b uffers but the one aftyer cts has all the clock buffer information as well.
  
